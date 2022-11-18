@@ -28,7 +28,7 @@ public class Exercicio5 {
             System.out.printf("O valor de contribuição ao INSS é %.2f reais.", contribuir);
         } else if (salario > 1212.01 && salario <= 2427.35) {
             System.out.printf("O salário bruto informado foi %.2f reais.\n", salario);
-            double tarifa_custom = ((salario - 1212.01) / 100) * 9;
+            double tarifa_custom = ((salario - 1212.00) / 100) * 9;
             double contribuir = tarifa_lvl1 + tarifa_custom;
             System.out.printf("O valor de contribuição ao INSS é %.2f reais.", contribuir);
         } else {
